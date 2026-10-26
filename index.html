@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.4.1/dist/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>LOGIN 6 - RAFAELA</title>
+</head>
+<body>
+  <main>
+    <div id="tela_login">
+      <form action="javascript:void(0);" method="get" id="valida">
+        <input type="text" id="user" name="user" value="bbb" placeholder="Informe o seu usuário">
+        <input type="password" id="pass" name="pass" value="222" placeholder="Informe a sua senha">
+        <input type="email" id="email" name="email" value="c@c.com" placeholder="Informe o seu email">
+        <button id="login">ENTRAR</button>
+      </form>
+      <p id="msg"></p>
+    </div>
+  </main>
+  <div id="overlay"></div>
+  <div id="alerta">
+    <div id="caixa_alerta">
+      <button id="fechar_alerta">X</button>
+      <p id="msg_alerta"></p>
+    </div>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+</html>
